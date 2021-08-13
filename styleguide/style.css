@@ -1,0 +1,17 @@
+* {
+  font-family: Arial, Helvetica, sans-serif; }
+
+a {
+  text-decoration: none; }
+
+.button {
+  font-weight: 700;
+  font-size: 18px;
+  padding: 4px 12px;
+  background-color: #9EBD71;
+  color: white;
+  text-align: center; }
+  .button.secondary {
+    background-color: #116D56; }
+  .button:hover {
+    opacity: 0.7; }

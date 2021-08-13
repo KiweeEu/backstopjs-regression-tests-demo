@@ -1,0 +1,41 @@
+// Card
+//
+// Card with two buttons
+//
+// Markup:
+// <div class="card">
+//   <span class="card__title">Card title</span>
+//   <p>
+//     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+//     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+//     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+//   </p>
+//   <div class="card__buttons">
+//     <a class="button" href="">Button</a>
+//     <a class="button secondary" href="">Read more</a>
+//   </div>
+// </div>
+//
+// Style guide: elements.card
+.card {
+  position: relative;
+  display: block;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15);
+  background-color: #F8FAF4;
+  padding: 10px;
+  width: 300px;
+
+  @media screen and (max-width: 767px){
+    width: 220px;
+  }
+
+  &__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  &__buttons {
+    text-align: center;
+  }
+}

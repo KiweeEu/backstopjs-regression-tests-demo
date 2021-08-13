@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  styleguide:
+    build:
+      context: .
+      dockerfile: docker/styleguide-nginx/Dockerfile
+    ports:
+      - "8081:80"
+    volumes:
+      - ./styleguide:/usr/share/nginx/html
+      - ./style.css:/usr/share/nginx/html/style.css

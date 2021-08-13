@@ -1,0 +1,28 @@
+// Button
+//
+// Standard Kiwee button
+//
+// .secondary - Use this class to indicate that the button is the primary
+//              feature of this form.
+// :hover     - Highlight the button when hovered.
+//
+// Markup:
+// <a class="button {{modifier_class}}" href="">Button</a>
+//
+// Style guide: elements.button
+.button {
+  font-weight: 700;
+  font-size: 18px;
+  padding: 8px 20px;
+  background-color: #9EBD71;
+  color: white;
+  text-align: center;
+
+  &.secondary {
+    background-color: #116D56;
+  }
+
+  &:hover {
+    opacity: 0.7;
+  }
+}

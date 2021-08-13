@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "styles": "node-sass scss/style.scss > style.css",
+    "styleguide": "npm run styles && kss --source scss --destination styleguide --css ../style.css --homepage homepage.md",
+    "backstop-reference": "npm run styleguide && backstop reference --config=backstop.js --docker",
+    "backstop-test": "npm run styleguide && backstop test --config=backstop.js --docker"
+  },
+  "devDependencies": {
+    "kss": "^3.0.1",
+    "node-sass": "^6.0.1"
+  },
+  "dependencies": {}
+}
