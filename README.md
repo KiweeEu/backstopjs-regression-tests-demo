@@ -1,16 +1,16 @@
 # Demo of KSS styleguides with backstop.js
 
-###Install packages
+### Install packages
 `npm install`
 
-###Generate styleguide
+### Generate styleguide
 `npm run styleguide`
 
-###Run local server for the styleguide
+### Run local server for the styleguide
 `docker-compose up -d`
 
-###Take reference screenshots
+### Take reference screenshots
 `npm run backstop-reference`
 
-###Run backstop tests
+### Run backstop tests
 `npm run backstop-test`
